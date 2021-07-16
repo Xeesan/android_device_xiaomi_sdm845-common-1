@@ -305,9 +305,14 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
+
 # Recorder
 PRODUCT_PACKAGES += \
     OPScreenRecorder
+    
+# Gallery
+PRODUCT_PACKAGES += \
+    SimpleGallery
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/hostapd.accept:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.accept \
